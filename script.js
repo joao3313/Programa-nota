@@ -11,8 +11,8 @@ var media = (nota1 + nota2)/Provas ;
 
 {
 
-    if(media >= 6)
-        //if(media==10)
+    if(media ==10)
+        if(media>= 6)
             
          alert(nome1 +", "+ "Uau! Aprovado");
         else
