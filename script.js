@@ -19,10 +19,12 @@ var media = (nota1 + nota2)/Provas ;
          alert(nome1 +", "+ "Uau! Aprovado");
         else
         
-        alert(nome1 +", "+ "Reprovado!");         
+        alert(nome1 +", "+ "Aluno em recuperação! Media ");
+                
        else
        
-       alert(nome1 +", "+ "Aluno em recuperação! Media ");
+       alert(nome1 +", "+ "Reprovado!"); 
+       
         
 }
 
