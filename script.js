@@ -1,5 +1,3 @@
-//alert("Alerta de Confirmação!");
-
 var nome1 = "";
 let nota1, nota2, nota3 = 0;
 const Provas = 2;
@@ -16,23 +14,13 @@ var media = (nota1 + nota2)/Provas ;
     if(media >= 6)
         if(media==10)
             
-         alert(nome1 +", "+ "Uau! Aprovado"+media)
-
-        else if (media <=4)
-          if(media==10) {
-
-          alert(nome1 +", "+ "Aluno em recuperação! Media "+media)
-        }
+         alert(nome1 +", "+ "Uau! Aprovado");
+        else
         
-                
-       else {
-
-        alert(nome1 +", "+ "Reprovado!"+media)
-       }
+         alert(nome1 +", "+ "Aluno em recuperação! Media "+media);
+       else
        
-       
-       
-        
+        alert(nome1 +", "+ "Reprovado!")
 }
 
 
