@@ -16,11 +16,12 @@ var media = (nota1 + nota2)/Provas ;
          alert(nome1 +", "+ "Uau! Aprovado");
        
        else if
-               
-        (nome1 +", "+ "Reprovado!") ;
+       (media>=5)   
+        (nome1 +", "+ "Recuperação!") ;
 
         else {
-          (media<=4) ("Reprovado");   
+          (media<=4) 
+          ("Reprovado");   
         }
 
                 
