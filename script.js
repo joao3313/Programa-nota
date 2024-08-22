@@ -16,7 +16,7 @@ var media = (nota1 + nota2) / Provas;
   } else if (media >= 5) 
     {    alert(nome1 + ", " + "Recuperação!");  }
 
-  else {    ("Reprovado");  }
+  else {    "Reprovado";  }
 
 }
 
