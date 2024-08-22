@@ -13,10 +13,8 @@ var media = (nota1 + nota2) / Provas;
 
   if (media >= 6) {
     alert(nome1 + ", " + "Uau! Aprovado");
-  } else if (media >= 5) 
-    {    alert(nome1 + ", " + "Recuperação!");  }
-
-  else {    "Reprovado";  }
+  } else if (media >= 5) { alert(nome1 + ", " + "Recuperação!"); }
+  else {alert ("Reprovado"); }
 
 }
 
