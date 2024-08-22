@@ -14,13 +14,17 @@ var media = (nota1 + nota2)/Provas ;
     if(media >=6)
                             
          alert(nome1 +", "+ "Uau! Aprovado");
-        else if 
-
-          (media<=4) {prompt ("Reprovado")};           
-        
-      // else
+       
+       else if
                
-        //  (nome1 +", "+ "Reprovado!") 
+        (nome1 +", "+ "Reprovado!") ;
+
+        else {
+          (media<=4) ("Reprovado");   
+        }
+
+                
+      
 
         
 }
