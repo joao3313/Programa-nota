@@ -11,14 +11,13 @@ var media = (nota1 + nota2)/Provas ;
 
 {
 
-    if(media ==10)
-        if(media >= 6)
-          if(media ==10)
-            
+    if(media >= 6)
+        if(media==10)
+                    
          alert(nome1 +", "+ "Uau! Aprovado");
         else
         
-         alert(nome1 +", "+ "Aluno em recuperação! Media "+media);
+       //  alert(nome1 +", "+ "Aluno em recuperação! Media "+media);
        else
        
         alert(nome1 +", "+ "Reprovado!")
