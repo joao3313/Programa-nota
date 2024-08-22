@@ -7,27 +7,27 @@ nota1 = parseFloat(prompt("Digite a Nota 1: "));
 nota2 = parseFloat(prompt("Digite a Nota 2: "));
 
 
-var media = (nota1 + nota2)/Provas ;
+var media = (nota1 + nota2) / Provas;
 
 {
 
-    if(media >=6)
-                            
-         alert(nome1 +", "+ "Uau! Aprovado");
-       
-       else if
-       (media>=5)   
-        (nome1 +", "+ "Recuperação!") ;
+  if (media >= 6){
+    alert(nome1 + ", " + "Uau! Aprovado");
+  }  else if(media >= 5){
+alert(nome1 + ", " + "Recuperação!");
+  }
+    
+    
 
-        else {
-          (media<=4) 
-          ("Reprovado");   
-        }
+  else {
+    
+      ("Reprovado");
+  }
 
-                
-      
 
-        
+
+
+
 }
 
 
