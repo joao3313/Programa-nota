@@ -1,7 +1,7 @@
 let nome = prompt("Informe seu nome:");
 
-let Numero_Escolhido01 = prompt("Informe um número:");
-let Numero_Escolhido02 = prompt("Informe um número:");
+let Numero_Escolhido01 = parseIntprompt("Informe um número:");
+let Numero_Escolhido02 = parseIntprompt("Informe um número:");
 let mensagem = "";
 
 {
