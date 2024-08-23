@@ -16,7 +16,7 @@ var numero;
 
     else if ((Numero_Escolhido01 <= Numero_Escolhido02) && (Numero_Escolhido01 <= Numero_Escolhido03)) {
 
-        alert(nome + " ," + "você escolheu o número:" + " " );
+        alert(nome + " ," + "você escolheu o número:" + " "+ numero );
     }
 
     else if ((Numero_Escolhido02 > Numero_Escolhido01) && (Numero_Escolhido02 > Numero_Escolhido03))
