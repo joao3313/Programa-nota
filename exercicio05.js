@@ -23,17 +23,17 @@ var menor =0;
 
 
 
-    else if ((Numero_Escolhido02 > Numero_Escolhido01) && (Numero_Escolhido02 > Numero_Escolhido03)) {
+    //else if ((Numero_Escolhido02 > Numero_Escolhido01) && (Numero_Escolhido02 > Numero_Escolhido03)) {
 
-        alert(nome + ", " + "você escolheu o número:" + " " + Numero_Escolhido02);
-    }
+      //  alert(nome + ", " + "você escolheu o número:" + " " + Numero_Escolhido02);
+   // }
 
 
-    else if ((Numero_Escolhido03 > Numero_Escolhido01) && (Numero_Escolhido03 > Numero_Escolhido02)) {
+    //else if ((Numero_Escolhido03 > Numero_Escolhido01) && (Numero_Escolhido03 > Numero_Escolhido02)) {
 
-        alert(nome + ", " + "você escolheu o número:" + " " + Numero_Escolhido03);
+       // alert(nome + ", " + "você escolheu o número:" + " " + Numero_Escolhido03);
 
-    }
+   // }
 
 }
 
