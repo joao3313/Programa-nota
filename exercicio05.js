@@ -5,7 +5,8 @@ let Numero_Escolhido02 = parseInt(prompt("Informe um número:"));
 let Numero_Escolhido03 = parseInt(prompt("Informe um número:"));
 //let mensagem = "";
 
-
+var maior = (Numero_Escolhido01,Numero_Escolhido02,Numero_Escolhido03);
+var menor = (Numero_Escolhido01,Numero_Escolhido02,Numero_Escolhido03);
 {
 
     if ((Numero_Escolhido01 > Numero_Escolhido02) && (Numero_Escolhido01 > Numero_Escolhido03)) {
