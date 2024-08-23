@@ -9,12 +9,12 @@ var menor ;
 
 {
 
-    if ((Numero_Escolhido01 > Numero_Escolhido02) && (Numero_Escolhido01 > Numero_Escolhido03) && (Numero_Escolhido01 = menor));
+    if ((Numero_Escolhido01 > Numero_Escolhido02) && (Numero_Escolhido01 > Numero_Escolhido03) && (Numero_Escolhido01 = menor>maior));
         
         
         {
 
-        alert(nome + " ," + "você escolheu o número:" + " " + Numero_Escolhido01);
+        alert(nome + " ," + "você escolheu o número:" + " " + Numero_Escolhido01 + menor);
     }
 
 
