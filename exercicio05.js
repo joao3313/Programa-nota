@@ -4,8 +4,8 @@ let Numero_Escolhido01 = parseInt(prompt("Informe um número:"));
 let Numero_Escolhido02 = parseInt(prompt("Informe um número:"));
 let Numero_Escolhido03 = parseInt(prompt("Informe um número:"));
 //let mensagem = "";
-var maior =0;
-var menor =0;
+var maior ;
+var menor ;
 
 {
 
