@@ -11,10 +11,10 @@ let mensagem = "";
         alert(nome + ", " + "Você escolheu o número:"+", "+ Numero_Escolhido01);
     }
 
-     else (Numero_Escolhido01 < Numero_Escolhido02)
+     //else (Numero_Escolhido01 < Numero_Escolhido02)
      {
 
-        alert(nome + ", " + "Você escolheu o número:"+", "+ Numero_Escolhido02);
+      //  alert(nome + ", " + "você escolheu o número:"+", "+ Numero_Escolhido02);
     }
      
   }
