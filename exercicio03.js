@@ -8,7 +8,7 @@ let mensagem = "";
 
     if (Numero_Escolhido01 > Numero_Escolhido02) {
 
-        alert(nome + ", " + "Você escolheu o número:"+", "+ Numero_Escolhido01);
+        alert(nome +  "Você escolheu o número:"+", "+ Numero_Escolhido01);
     }
 
      //else (Numero_Escolhido01 < Numero_Escolhido02)
