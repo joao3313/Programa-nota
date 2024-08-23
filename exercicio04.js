@@ -28,7 +28,7 @@ let Numero_Escolhido03 = parseInt(prompt("Informe um número:"));
     {
 
        // alert(nome + ", " + "você escolheu o número:" + " " + Numero_Escolhido03);
-       alert(nome + ", " + "você escolheu o número:" + Numero_Escolhido01 && Numero_Escolhido02 && Numero_Escolhido03);
+       alert(nome + ", " + "você escolheu o número:" + Numero_Escolhido01 || Numero_Escolhido02 || Numero_Escolhido03);
     }
    
 }
