@@ -31,7 +31,7 @@ else if (dia_escolhido == 6){
     
         alert (nome+ ", "+"Hoje é Sexta Feira"); }
 
-else if (dia_escolhido == 6){
+else if (dia_escolhido == 7){
     
     alert (nome+ ", "+"Hoje é Sábado"); }
 
