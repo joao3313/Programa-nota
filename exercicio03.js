@@ -1,16 +1,20 @@
 let nome = prompt("Informe seu nome:");
 
-let Numero_Escolhido = prompt("Informe um número:");
+let Numero_Escolhido01 = prompt("Informe um número:");
+let Numero_Escolhido02 = prompt("Informe um número:");
 let mensagem = "";
 
 {
 
-    if (Numero_Escolhido >=0 ) {
+    if (Numero_Escolhido01 > Numero_Escolhido02) {
 
-      alert( + ", " + "");
+        alert(nome + ", " + "Você escolheu o número:");
+    }
 
-    } else if (Numero_Escolhido >= 0) {
-         alert(nome1 + ", " + "Recuperação!"); }
+     else (Numero_Escolhido01 < Numero_Escolhido02)
+     {
 
+        alert(nome + ", " + "Você escolheu o número");
+    }
      
   }
