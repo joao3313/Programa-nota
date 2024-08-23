@@ -4,6 +4,7 @@ let Numero_Escolhido01 = parseInt(prompt("Informe um número:"));
 let Numero_Escolhido02 = parseInt(prompt("Informe um número:"));
 let Numero_Escolhido03 = parseInt(prompt("Informe um número:"));
 //let mensagem = "";
+let mensagem ="";
 
 {
 
@@ -27,7 +28,7 @@ let Numero_Escolhido03 = parseInt(prompt("Informe um número:"));
     {
 
        // alert(nome + ", " + "você escolheu o número:" + " " + Numero_Escolhido03);
-       alert(nome + ", " + "você escolheu o número:" + " ");
+       alert(nome + ", " + "você escolheu o número:" + mensagem );
     }
    
 }
