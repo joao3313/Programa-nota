@@ -23,7 +23,7 @@ let Numero_Escolhido03 = parseInt(prompt("Informe um número:"));
     }
 
 
-    else  ((Numero_Escolhido03 > Numero_Escolhido01) && (Numero_Escolhido03 > Numero_Escolhido02))
+    else if  ((Numero_Escolhido03 > Numero_Escolhido01) && (Numero_Escolhido03 > Numero_Escolhido02))
     
     {
 
