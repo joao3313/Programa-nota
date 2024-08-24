@@ -4,17 +4,17 @@ let Numero_Escolhido01 = parseInt(prompt("Informe um número:"));
 let Numero_Escolhido02 = parseInt(prompt("Informe um número:"));
 let Numero_Escolhido03 = parseInt(prompt("Informe um número:"));
 //let mensagem = "";
-var maior ;
+var maior =0;
 var menor ;
 
 {
 
-    if ((Numero_Escolhido01 > Numero_Escolhido02) && (Numero_Escolhido01 > Numero_Escolhido03) && (Numero_Escolhido01 = menor>maior));
+    if ((Numero_Escolhido01 > Numero_Escolhido02) && (Numero_Escolhido01 > Numero_Escolhido03) || (menor > maior));
         
         
         {
 
-        alert(nome + " ," + "você escolheu o número:" + " " + Numero_Escolhido01 + menor);
+        alert(nome + " ," + "você escolheu o número:" + " " + Numero_Escolhido01 + " E o número menor:" + menor);
     }
 
 
