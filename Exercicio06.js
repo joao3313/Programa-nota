@@ -10,7 +10,9 @@ let Renda_mensal = Ganhos_por_hora * Horas_trabalhadas_mês;
 
 //if (Ganhos_por_hora * Horas_trabalhadas_mês);
 
-let mensagem = ' $ {nome}, recebeuR$ ${Valor total} no mês';
+let mensagem = `${nome}, recebeu R$ ${Renda_mensal.toFixed(2)} no mês`
+
+
 
 alert (mensagem);
 
