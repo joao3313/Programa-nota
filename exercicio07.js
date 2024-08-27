@@ -1,4 +1,4 @@
-//let nome = prompt("Informe o seu nome :");
+//Feito por mim
 
 let idade = prompt("Informe sua Idade:");
 
@@ -10,20 +10,16 @@ let altura = parseFloat(prompt("Qual sua altura:"));
 
 if (altura > 1.70) {
 
-    alert(nome + ", " + " Autorizada!");
+    alert(  "Autorizada!");
 
 }
 else if ((idade >= 18) && (altura >= 1.60)) {
 
-    alert(nome + ", " + "Passagem autorizada!");
-
-
+    alert ( "Passagem autorizada!");
+       
 }
-else  
-
-((idade <=18) && (altura <= 1.59))
-{
-    alert(nome + ", " + "Passagem não autorizada!");
+else {
+    alert( "Passagem não autorizada!");
 
 }
    
