@@ -21,12 +21,13 @@ let altura = parseFloat(prompt("Qual sua altura:"));
    
    {
 
-    alert(nome + ", " + "Passagem autorizada!");
+    alert(nome + ", " + "Passagem autorizada!")
 
   
   }
 
-  else ((idade < 18) && (altura < 1.60))
+  else if ((idade < 18) && (altura < 1.60))
+
   {
     alert(nome + ", " + "Passagem não autorizada!");
     
