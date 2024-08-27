@@ -18,7 +18,7 @@ let produto, menor;
     if ((produto02 <= produto04) && (produto02 <= produto06)) {
 
         menor = produto02
-        alert("Produto escolhido:"+ " " + Valor do produto:" + " " + menor  );
+        alert("Produto escolhido:"+ " " + "Valor do produto:" + " " + menor  );
     }
 
     else if ((produto03 <= produto02) && (produto04 <= produto06)) {
