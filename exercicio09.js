@@ -8,23 +8,24 @@ let turnoEscolhido = prompt(textoMenu);
 // let turno;
 
 
-if ((turnoEscolhido == "M") && (turnoEscolhido == "m")){
+if ((turnoEscolhido == "M") || (turnoEscolhido == "m")){
 
-    alert("Matutino!" + "Bom dia !");
-
-}
-else if ((turnoEscolhido == "V") && (turnoEscolhido == "v")) {
-
-    alert("Vespertino!" + " Boa tarde !");
+    alert("Matutino! " + "Bom dia !");
 
 }
-else if ((turnoEscolhido == "N" ) && (turnoEscolhido == "n")){
+else if ((turnoEscolhido == "V") || (turnoEscolhido == "v")) {
 
-    alert("Noturno!" + "Boa Noite !");
+    alert("Vespertino! " + " Boa tarde !");
+
+}
+else if ((turnoEscolhido == "N" ) || (turnoEscolhido == "n")){
+
+    alert("Noturno! " + "Boa Noite !");
 
 }
 else {
     alert("Valor Inválido!");
 
+    
+    
 }
-
