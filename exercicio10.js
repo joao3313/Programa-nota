@@ -13,35 +13,47 @@ let Numero2 = parseInt(prompt("Informe um número:"));
 
 
 
-let = resultado;
+//let = resultado;
 
 switch (numeroescolhido) {
 
 
 
     case 1:
-        resultado = (Numero1) + (Numero2);
-        alert("Resultado! "+ numeroescolhido + resultado);
+        numeroescolhido = (Numero1) + (Numero2)
+        alert("Resultado! " + numeroescolhido);
         break;
 
     case 2:
-        resultado = "" - "";
+        numeroescolhido = (Numero1) - (Numero2)
+        alert("Resultado! " + numeroescolhido);
         break;
 
     case 3:
-        resultado = "" * "";
+        numeroescolhido = (Numero1) * (Numero2)
+        alert("Resultado! " + numeroescolhido);
         break;
 
     case 4:
-        resultado = "" / "";
-        break;
+
+        if (Numero2 == 0) {
+            alert("Inválido! ");
+
+        }
+        else {
+            numeroescolhido = (Numero1) / (Numero2)
+            alert("Resultado! " + numeroescolhido);
+            break;
+        };
 
     case 5:
-        resultado = "" + "";
+        numeroescolhido = (Numero1) ** (Numero2)
+        alert("Resultado! " + numeroescolhido);
         break;
 
     case 6:
-        resultado = "" + "";
+        numeroescolhido = (Numero1) ** (Numero2)
+        alert("Resultado! " + numeroescolhido);
         break;
 
 
