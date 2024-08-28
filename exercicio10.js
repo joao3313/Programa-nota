@@ -11,7 +11,7 @@ let numeroescolhido = parseInt(prompt(calculadora));
 let Numero1 = parseInt(prompt("Informe um número:"));
 let Numero2 = parseInt(prompt("Informe um número:"));
 
-
+//let num1 = 0, num2 = 0, total = 0;
 
 //let = resultado;
 
@@ -19,47 +19,72 @@ switch (numeroescolhido) {
 
 
 
-    case 1:
-        numeroescolhido = (Numero1) + (Numero2)
-        alert("Resultado! " + numeroescolhido);
-        break;
+  case 1:
+    numeroescolhido = (Numero1) + (Numero2)
+    alert("Resultado! " + numeroescolhido);
+    break;
 
-    case 2:
-        numeroescolhido = (Numero1) - (Numero2)
-        alert("Resultado! " + numeroescolhido);
-        break;
+  case 2:
+    numeroescolhido = (Numero1) - (Numero2)
+    alert("Resultado! " + numeroescolhido);
+    break;
 
-    case 3:
-        numeroescolhido = (Numero1) * (Numero2)
-        alert("Resultado! " + numeroescolhido);
-        break;
+  case 3:
+    numeroescolhido = (Numero1) * (Numero2)
+    alert("Resultado! " + numeroescolhido);
+    break;
 
-    case 4:
+  case 4:
 
-        if (Numero2 == 0) {
-            alert("Inválido! ");
-        }
-        else {
-            numeroescolhido = (Numero1) / (Numero2)
-            alert("Resultado! " + numeroescolhido);
-            break;
-        };
+    numeroescolhido = (Numero1) / (Numero2)
 
-    case 5:
-        numeroescolhido = (Numero1) ** (Numero2)
-        alert("Resultado! " + numeroescolhido);
-        break;
+    if
+      (Numero2 == 0) {
+      alert("Inválido! ");
+    }
 
-    case 6:
-        numeroescolhido = (Numero1) ** (Numero2)
-        alert("Resultado! " + numeroescolhido);
-        break;
+    else {
+
+      alert("Resultado! " + numeroescolhido);
+    }
+    break;
+  case 5:
+    numeroescolhido = (Numero1) ** (Numero2)
+    alert("Resultado! " + numeroescolhido);
+    break;
+
+  case 6:
+    numeroescolhido = (Numero1) ** (Numero2);
+    //alert("Resultado! " + numeroescolhido);
+
+    let operacao = ""
+    if (Numero2 == 2) {
+      operacao = "quadrada";
+
+    }
+    else if (Numero2 == 3) {
+
+      operacao = "cúbica";
+    }
+    else {
+      operacao = Numero2.toString();
+    }
+
+    alert("Resultado !" + Numero1 ** (1 / Numero2)); ''
+    break;
+
+  default:
+    alert("Inválido");
+    break;
 
 
 
 
 
 }
+
+
+
 
 
 //alert(`Resultado: ${resultado}`); 
