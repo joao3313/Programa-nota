@@ -38,7 +38,6 @@ switch (numeroescolhido) {
 
         if (Numero2 == 0) {
             alert("Inválido! ");
-
         }
         else {
             numeroescolhido = (Numero1) / (Numero2)
