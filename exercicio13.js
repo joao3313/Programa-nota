@@ -1,17 +1,29 @@
-alert("faça já seu cadastro:")
+let usuario, senha = "";
+do {
+    usuario = prompt("Informe o nome do usuário:");
+    senha = prompt("Informe a sua senha:");
 
-usuario = parseFloat(alert("usuário--> "))
-senha = parseFloat(alert("senha-->"))
+    if (usuario == senha)
+        alert("O usuário não pode ser igual a senha!!");
+
+} while (usuario == senha);
+
+alert("Cadastrado com sucesso!")
 
 
-if (usuario == senha) {
-    alert("ERRO: o usuário não pode ser igual a senha, tente novamente");
-    usuario = parseFloat(alert("usuário--> "))
-    senha = parseFloat(alert("senha-->"))
+
+//Codigo abaixo ou modo de fazer o programa acima 
+
+/* let usuario, senha = "";
+
+usuario = prompt("Informe o nome do usuário:");
+senha = prompt("Informe a sua senha:");
+
+while (usuario == senha) {
+    alert("O usuário não pode ser igual a senha!");
+
+    usuario = prompt("Informe o nome do usuário:");
+    senha = prompt("Informe a sua senha:");
 }
-else
 
-{
-    alert("cadastrado efetuado com sucesso");
-
-}
+alert("Cadastrado com sucesso!")*/
