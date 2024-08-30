@@ -1,10 +1,43 @@
 
-    let num = parseFloat(prompt("Preço do pão!"));
+preco = parseFloat(prompt("Informe o valor do pão:"));
+let tabString = `Preço do pão: R$ ${(preco).toFixed(2)} unid. <br>`;
+for (let i = 1; i <= 50; i++) {
+    tabString += `${i} = R$ ${(preco * i).toFixed(2)} <br>`;
+}
+document.write(tabString); 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  /* Codigo que fiz abaixo
+  
+  
+  
+  let num = parseFloat(prompt("Preço do pão!"));
     let stringTab = "";
     for (let i = 1; i <= 50; i++) {
         stringTab += `${i} = ${num * i. toFixed(2)} <br>`;
     }
     document.write(stringTab);
+
+
+   */
+   /* preco = parseFloat(prompt("Informe o valor do pão:"));
+    let tabString = `Preço do pão: R$ ${(preco).toFixed(2)} unid. <br>`;
+    for (let i = 1; i <= 50; i++) {
+        tabString += `${i} = R$ ${(preco * i).toFixed(2)} <br>`;
+    }
+    document.write(tabString);
+*/
+
+
    // continuar = prompt("Outro preço de pão ? S=Sim e N=Não")
 
 
