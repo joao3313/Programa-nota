@@ -1,49 +1,35 @@
-let calculadora = `Calculadora:`
+let continuar = "S";
+do {
+    let num = parseInt(prompt("Informe sua tabuada!"));
+    let stringTab =
+        `
+        ${num} X 1 = ${num * 1} 
+        ${num} X 2 = ${num * 2}
+        ${num} X 3 = ${num * 3}
+        ${num} X 4 = ${num * 4}
+        ${num} X 5 = ${num * 5}
+        ${num} X 6 = ${num * 6}
+        ${num} X 7 = ${num * 7}
+        ${num} X 8 = ${num * 8}
+        ${num} X 9 = ${num * 9}
+        ${num} X 10 = ${num * 10}
+    `;
+    alert(stringTab);
+    continuar = prompt("Você deseja gerar outra Tabuada? S=Sim e N=Não")
 
-let numeroescolhido = parseInt(prompt(calculadora));
-let num1 = parseInt(prompt("Informe um número:"));
-let num2 = parseInt(prompt("Informe um número:"));
+} while (continuar == "S");
+
+// outro modelo de tabuada abaixo :
 
 
-if (num1 == '' || num1 == null) {
-    alert("Favor digitar número válido para operação");
-    return false;
-}
+/*let continuar = "S";
+do {
+    let num = parseInt(prompt("Informe sua tabuada!"));
+    let stringTab = "";
+    for (let i = 1; i <= 10; i++) {
+        stringTab += `${num} X ${i} = ${num * i} \n`;
+    }
+    alert(stringTab);
+    continuar = prompt("Você deseja gerar outra Tabuada? S=Sim e N=Não")
 
-else if (num2 == '' || num2 == null) {
-    alert("Favor digitar número válido para a operação");
-    return false;
-}
-{
-
-var resultado = null;
-
-switch (operacao){
-
-
-
-    case '1': //Subtração
-        resultado = num1 - num2;
-        break;
-
-    case '2': // Adição
-        resultado = num1 + num2;
-        break;
-
-    case '3': // Multiplicação
-        resultado = num1 * num2;
-        break;
-
-    case '4': // Divisão
-        resultado = num1 / num2;
-        break;
-
-    default:
-        alert('A opção selecionada é inválida');
-        return false;
-
-    //alert( ""+ resultado);
-    //break;
-}
-
-}
+} while (continuar == "S");*/
